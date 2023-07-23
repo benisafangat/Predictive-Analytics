@@ -64,6 +64,11 @@ Membagi dataset menjadi 2 kategori yaitu sebagai data latih dan data uji. Propos
 ### Data Normalization
 Proses normalisasi menggunakan library MinMaxScaler. Fungsi normalisasi diterapkan agar model lebih cepat dalam mempelajari data karena data telah diubah pada rentang tertentu seperti antara 0 dan 1
 
+### Multivariate
+### Unvariate
+### Mengatasi Outlier
+### Corelation Matrix
+
 ## Modeling
 Model yang akan digunakan proyek kali ini yaitu *Random Forest, K-Nearest Neighbors,* dan *Boosting Algorithm*.
 
