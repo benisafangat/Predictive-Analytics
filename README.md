@@ -8,7 +8,15 @@ Pergerakan nilai forex yang signifikan dan potensi keuntungan yang besar menarik
 
 Menurut data dari BIS (Bank International for Settlement) pada April 2019, nilai transaksi pasar forex mencapai lebih dari USD$ 6,6 triliun per hari. Forex termasuk dalam kategori investasi berisiko tinggi, yang berarti berisiko tinggi karena kesalahan dalam transaksi dapat dengan cepat mengurangi modal di akun trading. Oleh karena itu, para trader harus mengetahui kapan waktu yang tepat untuk masuk pasar, berapa lama menunggu, dan berapa kali melakukan pembelian atau penjualan. Salah satu cara yang dapat digunakan adalah dengan menggunakan teknik forecasting.
 
-Forecasting adalah suatu teknik untuk meramalkan keadaan di masa depan berdasarkan data-data yang ada di masa lalu. Dalam konteks pasar forex, ini termasuk dalam time series forecasting, yaitu dengan mendeteksi pola dan tren dari data historis kemudian memformulasikannya dalam suatu model untuk memprediksi data di masa depan. Teknik ini membantu trader untuk membuat keputusan yang lebih informasional dan mendukung dalam aktivitas perdagangan mereka.
+Teknik forecasting dalam konteks pasar forex membantu para trader untuk membuat keputusan yang lebih informasional dan mendukung dalam aktivitas perdagangan mereka dengan cara meramalkan pergerakan nilai mata uang di masa depan berdasarkan analisis data historis. Dalam hal ini, time series forecasting digunakan untuk mengidentifikasi pola dan tren dari data harga mata uang di masa lalu, kemudian membangun model matematika atau statistik yang dapat digunakan untuk memprediksi pergerakan harga di masa mendatang.
+
+Berikut adalah beberapa cara teknik forecasting membantu para trader dalam perdagangan forex:
+
+* Identifikasi Tren dan Pola
+* Mengetahui Titik Support dan Resistance
+* Memprediksi Peristiwa Ekonomi
+* Mengatur Rencana dan Strategi
+* Mengurangi Risiko
 
 ## Business Understanding
 ### Problem Statement
