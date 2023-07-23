@@ -51,10 +51,10 @@ Dataset ini memiliki format .csv yang mempunyai total 1827 data dengan 7 kolom (
 ### Menghapus fitur yang tidak diperlukan
 Menghapus fitur Date, Volume, dan Close. 
 
-#### Splitting Dataset
+### Splitting Dataset
 Membagi dataset menjadi 2 kategori yaitu sebagai data latih dan data uji. Proposi yang digunakan adalah 80% untuk data latih dan 20% untuk dat uji.
 
-#### Data Normalization
+### Data Normalization
 Proses normalisasi menggunakan library MinMaxScaler. Fungsi normalisasi diterapkan agar model lebih cepat dalam mempelajari data karena data telah diubah pada rentang tertentu seperti antara 0 dan 1
 
 ## Modeling
