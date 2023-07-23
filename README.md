@@ -30,7 +30,7 @@ Tujuan proyek ini dibuat adalah sebagai berikut :
 
 * Memprediksi harga pasangan mata uang BTC/USD di pasar forex dengan akurat menggunakan model *machine learning*.
 * Melakukan analisis dan pengolahan data yang optimal agar dapat diterima dengan baik oleh model *machine learning*.
-* Membantu para trader dalam melakukan transaksi pada pasar forex khususnya dalam pasangan mata uang BTC/USD.
+* Membantu para trader dalam melakukan transaksi pada pasar forex khususnya dalam pasangan mata uang BTC/USD dengan bantuan *machine learning*.
 
 ### Solution Statement
 Solusi yang dapat dilakukan agar tujuan dapat tercapai adalah sebagai berikut:
@@ -44,6 +44,11 @@ Solusi yang dapat dilakukan agar tujuan dapat tercapai adalah sebagai berikut:
 ## Data Understanding
 Dataset yang digunakan pada proyek ini adalah dataset riwayat dari forex market BTC/USD yang diambil dari website  https://finance.yahoo.com/quote/BTC-USD/history?p=BTC-USD
 
+
+![btc](https://github.com/benisafangat/predictive-analytics/assets/70525105/8fa77e42-009c-4fbf-a097-92c4f35f10f1)
+
+Ini adalah grafik tren harga pasangan mata uang BTC/USD dari range 5 tahun terakhir.
+
 Dataset ini memiliki format .csv yang mempunyai total 1827 data dengan 7 kolom (Date, Open, High, Low, Close, Adj Close, Volume) dengan informasi sebagai berikut:
 
 * Date : Tanggal data tersebut direkam
@@ -56,10 +61,10 @@ Dataset ini memiliki format .csv yang mempunyai total 1827 data dengan 7 kolom (
 
 ## Data Preparation
 ### Menghapus fitur yang tidak diperlukan
-Menghapus fitur Date, Volume, dan Close. 
+Menghapus fitur Date, Volume, dan Close. Fitur Date dan Volumen dihapus dikarenakan fitur tersebut tidak merepresentasikan fitur yang akan digunakan dalam modeling. Fitur Close dihapus karena fitur pada Adj Close lebih akurat untuk merepresentasikan penutupan harga dari pada fitur Close.
 
 ### Splitting Dataset
-Membagi dataset menjadi 2 kategori yaitu sebagai data latih dan data uji. Proposi yang digunakan adalah 80% untuk data latih dan 20% untuk dat uji.
+Membagi dataset menjadi 2 kategori yaitu sebagai data latih dan data uji. Proposi yang digunakan adalah 80% untuk data latih dan 20% untuk data uji, pembagian ini sangatlah umum dalam machine learning. Pendekatan ini memungkinkan kita untuk melatih model menggunakan sebagian besar data yang tersedia (data latih) dan kemudian menguji kinerjanya menggunakan data yang tidak pernah dilihat oleh model sebelumnya (data uji). Hal ini membantu kita memastikan bahwa model yang dihasilkan dapat melakukan generalisasi dengan baik pada data baru yang belum pernah dilihat sebelumnya.
 
 ### Data Normalization
 Proses normalisasi menggunakan library MinMaxScaler. Fungsi normalisasi diterapkan agar model lebih cepat dalam mempelajari data karena data telah diubah pada rentang tertentu seperti antara 0 dan 1
