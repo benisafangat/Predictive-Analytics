@@ -48,6 +48,7 @@ Dataset yang digunakan pada proyek ini adalah dataset riwayat dari forex market 
 ![btc](https://github.com/benisafangat/predictive-analytics/assets/70525105/8fa77e42-009c-4fbf-a097-92c4f35f10f1)
 
 Ini adalah grafik tren harga pasangan mata uang BTC/USD dari range 5 tahun terakhir.
+Terlihat pada grafik bahwa pergerakan harga mata uang BTC/USD mengalami folatilitas yang cukup tinggi
 
 Dataset ini memiliki format .csv yang mempunyai total 1827 data dengan 7 kolom (Date, Open, High, Low, Close, Adj Close, Volume) dengan informasi sebagai berikut:
 
